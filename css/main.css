@@ -11,7 +11,7 @@
 
 .menu-ol {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 
 }
 
@@ -52,7 +52,7 @@
     font-size: 60px;
     font-weight: 700;
     max-width: 480px;
-    height: 200px;
+    margin-bottom: 90px;
     line-height: 94%;
     letter-spacing: 3%;
     color: black;
@@ -162,11 +162,12 @@
 
 
 .footer__top {
+    margin-top: 70px;
 }
 
 
 .footer__top-text {
-    margin-top: 70px;
+    
     font-family: "DM Sans", serif;
     display: flex;
     justify-content: space-between;
@@ -243,6 +244,96 @@
     color: #2429AF;
 }
 
-@media (max-width: 650px) {
+
+@media(max-width: 760px){
+
+	.block1 {
+		display: flex;
+        align-items: center;
+		flex-direction: column;
+		margin-bottom: 140px;
+	}
+
+    .info__title{
+        display: flex;
+        font-size: 20px;
+        
+    }
+	
+	.info__title1, .info__title2{
+        
+    }
+
+	.footer__top-text-link {
+        font-size: 20px;
+	}
+
+    .footer__top-text-mail1 {
+        font-size: 20px
+    }
+
+    .footer__top-text-mail2 {
+        font-size: 15px;
+
+    }
+    .footer__menu-link {
+        
+    }
     
+    .footer__top-text-link2-img {
+        max-width: 17px;
+    }
+
+    .header__top {
+        padding-left: 54px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer__menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .main {
+        padding-top: 125px;
+        padding-left: 54px;
+        padding-right: 54px
+    }
+
+    .footer {
+        margin-bottom: 100px;
+        padding-left: 54px;
+        padding-right: 54px
+    }
+
+    .footer__top-text {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu-ol {
+        display: flex;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .info__title {
+        font-size: 44px;
+    }
+
+    .info__title1, .info__title2 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 848px){
+    .info__title1, .info__title2 {
+        font-size: 23px;
+    }
 }

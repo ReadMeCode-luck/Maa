@@ -12,7 +12,7 @@
 
 .menu__link{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
     color: black;
 }
@@ -222,7 +222,7 @@
 .block2{
     display: flex;
     padding-top: 125px;
-    margin-bottom: 37px;
+    margin-bottom: 50px;
     justify-content: space-between;
 }
 
@@ -249,4 +249,175 @@
     line-height: -3%;
     text-decoration: none;
     color: #2429AF;
+}
+
+@media (max-width: 760px) {
+
+    .header-top {
+        padding-left: 54px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main {
+        padding-top: 102px;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .block2 {
+        display: flex;
+        padding-top: 72px;
+        margin-bottom: 37px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .text__info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .info__title1 {
+        font-size: 23px;
+    }
+
+    .info__title2 {
+        font-size: 23px;
+        padding-left: 40px
+    }
+
+    .strelka_img {
+        height: 26px;
+        object-fit: cover;
+    }
+
+    .cases__card {
+        display: flex;
+        align-items: center;
+        padding-bottom: 106px;
+        border-bottom: 1px solid #000;
+        padding-top: 0px;
+        flex-direction:column-reverse;
+        gap: 30px;
+    }
+
+    .cases__card2 {
+        display: flex;
+        align-items: center;
+        padding-top: 114px;
+        padding-bottom: 106px;
+        border-bottom: 1px solid #000;
+        flex-direction:column-reverse;
+        gap: 30px;
+    }
+
+    .cases__card3 {
+    display: flex;
+    padding-top: 114px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #000;
+    flex-direction: column-reverse;
+    gap: 30px;
+    }
+
+    .Fabu_img {
+        margin-left: 0px;
+    }
+
+    .cases__link3 {
+        font-family: "Link";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 121%;
+        letter-spacing: -3%;
+        padding-top: 50px;
+        text-decoration: none;
+        color: #606060;
+    }
+
+    .cases__link {
+        font-family: "Link";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 121%;
+        letter-spacing: -3%;
+        text-decoration: none;
+        padding-top: 50px;
+        color: black;
+    }
+
+    .menu-ol {
+        display: flex;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 1200px){
+    .info__title1 {
+        font-size: 38px;
+    }
+
+    .text__link {
+        font-size: 15px;
+    }
+
+    .cases__text {
+        font-size: 14px;
+    }
+
+    .cases__subtext {
+        font-size: 13px;
+    }
+
+    .grec_img{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .text__link2 {
+        font-size: 15px;
+    }
+
+    .cases__text2 {
+        font-size: 14px;
+    }
+
+    .cases__subtext2 {
+        font-size: 13px;
+    }
+
+    .buble_img{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .text__link3 {
+        font-size: 15px;
+    }
+
+    .cases__text3 {
+        font-size: 14px;
+    }
+
+    .cases__subtext3 {
+        font-size: 13px;
+    }
+
+    .Fabu_img{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .cases__info3 {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        margin-right: 290px;
+    }
 }
